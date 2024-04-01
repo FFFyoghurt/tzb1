@@ -1,0 +1,68 @@
+.content {
+  margin-top: 60px;
+  overflow: hidden;
+  width: 1200px;
+  height: 400px;
+}
+
+.content .box {
+  padding-top: 30px;
+  width: 600px;
+  height: 500px;
+  margin-left: 300px;
+  margin-top: 50px;
+  text-align: center;
+  background: rgba(0, 0, 0, .2);
+}
+
+.content .box h2 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.content .box ul li {
+
+  width: 600px;
+  height: 50px;
+  margin-bottom: 50px;
+  line-height: 45px;
+}
+
+.content .box ul li span {
+  font-size: 20px;
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+  text-align: right;
+}
+
+.content .box ul li input {
+  padding-left: 30px;
+  margin-left: 30px;
+  width: 400px;
+  height: 40px;
+  font-size: 16px;
+}
+
+button {
+  width: 200px;
+  height: 60px;
+  background-color: #000;
+  color: #fff;
+  font-size: 25px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.container {
+  height: 1250px;
+}
+
+footer {
+  margin-top: 90px;
+}
+
+.content {
+  height: 540px;
+}

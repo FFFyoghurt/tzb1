@@ -1,0 +1,92 @@
+.contact {
+  overflow: hidden;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+  display: block;
+  padding: 40px;
+}
+
+.container {
+  height: 1150px;
+}
+
+.contact h5 {
+  font-weight: 500;
+  font-size: 38px;
+  color: #d02552;
+  margin-bottom: 10px;
+}
+
+.contact h4 {
+  color: #323946;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.contact p {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.contact form {
+  float: left;
+  width: 1120px;
+}
+
+.contact form .names,
+.contact form .emails {
+  height: 60px;
+  padding: 8px 15px;
+  border: 0;
+  border-radius: 0;
+  width: 100%;
+  color: #929292;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.1px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  outline: none;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.contact form textarea {
+  padding: 8px;
+  padding-left: 16px;
+  width: 1120px;
+  height: 185px;
+  color: #929292;
+  border: 2px solid #d02552;
+  border-color: rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.1px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  outline: none;
+  background-color: #fff;
+  Resize: none;
+}
+
+.content1 {
+  height: 400px !important;
+}
+
+.contact .pic {
+  float: left;
+  margin-left: 30px;
+  overflow: hidden;
+  width: 599px;
+  height: 340px;
+}
+
+.contact img {
+  width: 600px;
+}
+
+
+/* contact 结束 */

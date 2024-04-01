@@ -1,0 +1,189 @@
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contain {
+  margin: 0 auto;
+  width: 900px;
+  height: 700px;
+  background-color: pink;
+}
+
+.contain .left {
+  width: 80px;
+  height: 100%;
+  float: left;
+  background-color: orange;
+}
+
+.contain .left li {
+  line-height: 80px;
+  width: 100%;
+  height: 140px;
+  background-color: skyblue;
+  text-align: center;
+  color: #fff;
+  writing-mode: vertical-rl;
+  font-size: 18px;
+  letter-spacing: 5px;
+}
+
+.contain .left li:hover {
+  background-color: #ffffff;
+  color: #ff2097;
+}
+
+.right {
+  float: left;
+  width: 1200px;
+  height: 100%;
+  background-color: #eee;
+  box-sizing: border-box;
+}
+
+.right .top {
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+  padding-left: 30px;
+}
+
+.right .top .login {
+  float: left;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.right .top .logo {
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+.right .top .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.right .top h3 {
+  float: left;
+  line-height: 80px;
+  margin-left: 30px;
+  font-size: 25px;
+}
+
+.right .top #nowSpan {
+  float: left;
+  margin-left: 250px;
+  margin-top: -20px;
+}
+
+.right .bottom {
+  padding-left: 60px;
+  width: 1200px;
+  height: 700px;
+  background-color: #eee;
+}
+
+
+.main {
+  width: 100%;
+  height: 780px;
+}
+
+.main .lefts {
+  float: left;
+  padding: 10px;
+  padding-top: 30px;
+  width: 400px;
+  height: 100%;
+  background-color: #cacaca;
+}
+
+.main .lefts {
+  background-color: #e8e8e8;
+}
+
+.container .main .rights {
+  background-color: #eeeeee;
+}
+
+.main .lefts .top {
+  width: 100%;
+  height: 40px;
+  background-color: skyblue;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+.main .lefts .middle {
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin-left: 90px;
+  margin-top: 20px;
+  border-radius: 200px;
+  background-color: chocolate;
+}
+
+.main .lefts .middle img {
+  width: 100%;
+  height: 100%;
+}
+
+.main .lefts p {
+  margin-left: 50px;
+  margin-top: 24px;
+  width: 235px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.main .rights {
+  padding: 25px;
+  padding-top: 30px;
+  float: left;
+  height: 100%;
+  background-color: #eeeeee;
+}
+
+.right .bottom .rights {
+  margin-left: 100px;
+  width: 600px;
+}
+
+.main .rights .pic {
+  width: 100%;
+  height: 300px;
+  background-color: orange;
+}
+
+.main .rights .pic img {
+  width: 100%;
+  height: 100%;
+}
+
+.main .rights p {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 18px;
+  letter-spacing: 5px;
+  text-align: justify;
+  line-height: 30px;
+}
+
+.container {
+  height: 700px;
+}
